@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es-mex">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+    
+<body >
+    <header >
+        
+    </header>
+    <main >
+        <div class="presentacion">
+        
+            <div class="presentacion__seleccion">
+            
+                <div class="heder__imagen__alura__div">
+                    <img class="header__imagen" src="./assets/Logo.png" alt="logo_alura">
+                </div>
+                <div class="presentacion__seleccion2">
+                    <input class="presentacion__texto" type="text" id="IngresarTexto" name="IngresarTexto" 
+                    placeholder="Ingresa un texto aqui"><br><br>;
+                </div>    
+                <div class="presentacion__imagen__Frame__div">            
+                    <img class="presentacion__imagen__Frame" src="./assets/Frame 1.png" alt="Frame_alura">;
+                </div>
+                <div class="presentacion__div">
+                    
+                    <button onclick="encriptador1();" class="presentacion__button__Encriptador">
+                    Encriptar
+                    </button>
+                    <button onclick="desencriptar1();" class="presentacion__button__Desencriptador">
+                    Desencriptar
+                    </button>
+                </div>
+
+            </div>
+            <div class="presentacion__seleccion3">  
+                <img class="presentacion__imagen__muñeco" src="./assets/Muñeco.png" alt="muñeco_alura" id="muñeco">;
+                <div class="presentacion__seleccion3__mesaje">
+                    <p class="presentacion__seleccion3__parrafo" id="texto" cols="30" rows="10"> 
+                    </p>
+                    <div class="presentacion__seleccion3__img_Frama2">
+                         <img class="presentacion__imagen__Frame2" src="./assets/Frame 5.png" alt="muñeco2_alura" id="frame2">;
+                         <button onclick="copiartexto();" class="presentacion__button__copiar"  id="Copiar" > Copiar </button>
+                    </div>
+                </div>
+                
+            </div>
+        </div>  
+        
+            
+
+    </main>
+    <footer>
+
+    </footer>
+    
+    <script src="main.js"></script>
+</body>
+</html>
